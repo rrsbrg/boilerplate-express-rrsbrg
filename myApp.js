@@ -19,7 +19,7 @@ function respond(req, res) {
 
 app.get("/", respond);
 app.use("/public", express.static(__dirname + "/public"));
-*/
+
 
 
 function respondJSON(req, res) {
@@ -30,7 +30,7 @@ app.get("/json", respondJSON);
 
 
 
-
+*/
 
 
 
